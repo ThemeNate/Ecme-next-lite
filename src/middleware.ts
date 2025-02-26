@@ -8,6 +8,8 @@ import {
 import { REDIRECT_URL_KEY } from '@/constants/app.constant'
 import appConfig from '@/configs/app.config'
 
+// test
+
 const { auth } = NextAuth(authConfig)
 
 const publicRoutes = Object.entries(_publicRoutes).map(([key]) => key)
